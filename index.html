@@ -1,28 +1,42 @@
 ---
 layout: en
-title: gettext for Ruby
+title: The ruby-gettext project
 ---
 <div class="hero-unit">
-  <h1>gettext for Ruby</h1>
-  <p>
-    <pre><code>% gem install gettext</code></pre>
-  </p>
-  <p>
-    <a href="http://rubydoc.info/gems/gettext/file/news.md#2-2-1">2.2.1</a> is the latest release.
-    It had been released at 2012-05-20.
-  </p>
+  <h1>The ruby-gettext project</h1>
+  <div class="row">
+    <div class="span5">
+      <h2>gettext for Ruby</h2>
+      <p>
+        <pre><code>% gem install gettext</code></pre>
+      </p>
+      <p>
+        <a href="http://rubydoc.info/gems/gettext/file/news.md#{{ site.gettext_version | replace: '.', '-' }}">{{ site.gettext_version }}</a> is the latest release.
+        It had been released at {{ site.gettext_release_date }}.
+      </p>
+    </div>
+
+    <div class="span5">
+      <h2>locale for Ruby</h2>
+      <p>
+        <pre><code>% gem install locale</code></pre>
+      </p>
+      <p>
+        <a href="http://rubydoc.info/gems/locale/file/news.md#{{ site.locale_version | replace: '.', '-' }}">{{ site.locale_version }}</a> is the latest release.
+        It had been released at {{ site.locale_release_date }}.
+      </p>
+    </div>
+  </div>
 </div>
 
 <div class="row">
-  <div class="span5">
-    <h2>About</h2>
+  <div class="span6">
+    <h2>About gettext gem</h2>
     <p>Gettext gem is a Localization(L10n) Library and Tools which is modeled after GNU gettext package.<p>
     <p>The library converts the messages to localized messages properly using client-side locale information(environment variable or CGI variable).</p>
     <p>And the tools for developers support to create, use, and modify localized message files(message catalogs) easily.</p>
-  </div>
 
-  <div class="span5">
-    <h2>Resources</h2>
+    <h3>Resources</h3>
     <dl>
       <dt>Web</dt>
       <dd><a href="http://ruby-gettext.github.com/">http://ruby-gettext.github.com/</a></dd>
@@ -32,6 +46,23 @@ title: gettext for Ruby
       <dd><a href="https://github.com/ruby-gettext/gettext">GitHub</a></dd>
       <dt>Gem</dt>
       <dd><a href="https://rubygems.org/gems/gettext">RubyGems.org</a></dd>
+    </dl>
+  </div>
+
+  <div class="span6">
+    <h2>About locale gem</h2>
+    <p>Locale gem is the pure ruby library which provides basic and general purpose APIs for localization.  It aims to support all environments which ruby works and all kind of programs (GUI, WWW, library, etc), and becomes the hub of other i18n/l10n libs/apps to handle major locale ID standards.</p>
+
+    <h3>Resources</h3>
+    <dl>
+      <dt>Web</dt>
+      <dd><a href="http://ruby-gettext.github.com/">http://ruby-gettext.github.com/</a></dd>
+      <dt>Reference</dt>
+      <dd><a href="http://rubydoc.info/gems/locale/">RubyDoc.info</a></dd>
+      <dt>Repository</dt>
+      <dd><a href="https://github.com/ruby-gettext/locale">GitHub</a></dd>
+      <dt>Gem</dt>
+      <dd><a href="https://rubygems.org/gems/locale">RubyGems.org</a></dd>
     </dl>
   </div>
 </div>
