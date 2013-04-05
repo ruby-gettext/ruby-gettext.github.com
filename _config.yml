@@ -3,7 +3,7 @@ pygments: true
 permalink: /:categories/blog/:year/:month/:day/:title.html
 paginate: 5
 url: http://ruby-gettext.github.com
-gettext_version: 2.3.7
-gettext_release_date: 2013-01-11
+gettext_version: 2.3.8
+gettext_release_date: 2013-04-05
 locale_version: 2.0.8
 locale_release_date: 2012-08-29
