@@ -2,8 +2,8 @@ markdown: kramdown
 permalink: /:categories/blog/:year/:month/:day/:title.html
 paginate: 5
 url: http://ruby-gettext.github.io
-gettext_version: 3.2.2
-gettext_release_date: 2016-04-17
+gettext_version: 3.2.3
+gettext_release_date: 2017-06-24
 locale_version: 2.1.2
 locale_release_date: 2015-09-15
 
